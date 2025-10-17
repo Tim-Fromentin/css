@@ -10,8 +10,10 @@
 
 
 # READ ME 
+#### [Voir le Style Guide](./static/styles/STYLE-GUIDE.md)
 # Sommaire
 - [READ ME](#read-me)
+      - [Voir le Style Guide](#voir-le-style-guide)
 - [Sommaire](#sommaire)
 - [Installation](#installation)
     - [1. Exemples](#1-exemples)
