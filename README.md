@@ -1,129 +1,94 @@
-# Style Guide
+![Version](https://img.shields.io/badge/version-1.0.0-lightgrey?style=flat)
+
+[![Python](https://img.shields.io/badge/Python-3776AB?logo=python&logoColor=fff)](#)
+[![HTML](https://img.shields.io/badge/HTML-%23E34F26.svg?logo=html5&logoColor=white)](#)
+[![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=000)](#)
+[![Markdown](https://img.shields.io/badge/Markdown-%23000000.svg?logo=markdown&logoColor=white)](#)
+[![CSS](https://img.shields.io/badge/CSS-639?logo=css&logoColor=fff)](#)
+[![MongoDB](https://img.shields.io/badge/MongoDB-%234ea94b.svg?logo=mongodb&logoColor=white)](#)
+
+
+
+# READ ME 
+#### [Voir le STYLE GUIDE](./static/styles/STYLE-GUIDE.md)
+#### [Voir le CHANGELOG](./CHANGELOG.md)
+
 # Sommaire
-
-- [Naming system](#naming-system)
-  - [Block](#block)
-  - [Element](#element)
-  - [Modifier](#modifier)
+- [READ ME](#read-me)
+      - [Voir le style guide](#voir-le-style-guide)
+- [Sommaire](#sommaire)
+- [Installation](#installation)
+    - [1.](#1)
+    - [2.](#2)
+- [Lancement](#lancement)
+    - [1.](#1)
+    - [2.](#2-1)
+- [Liste des librairies](#liste-des-librairies)
 - [Architecture](#architecture)
-- [Liste des classes préparé](#liste-des-classes-préparé)
-- [Éléments du root](#éléments-du-root)
+
+
+# Installation
+### 1.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+### 2.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+<br /><br />
+
+# Lancement
+### 1.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+### 2.
+Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+
+<br /><br />
+
+
+# Liste des librairies
+- mqtt
+- CHART JS
+
+<br /><br />
 
 
 
 
-# Naming system
-Nous utilisons la convention **[BEM](https://getbem.com/)** (Block, Element, Modifier) pour nommer les classes CSS.  
 
-## Block
-### 1. Block (Composant global et indépendant)  
-Un **Block** représente un composant autonome.  
-
-**Exemples de Blocks** :  
-- `btn`  
-- `card`  
-- `nav`  
-- `footer`  
-- `header`  
-#### Examples
-```html
-    <button class="btn">
-        Ajouter
-    </button>
-```
-## Element
-## 2. Element (Partie interne d’un Block)
-Un **Element** est une partie constitutive d’un Block.
-Il se définit avec la syntaxe `block__element`.
-**Exemples d'element** : 
-- `btn__icon`
-- `section__title`
-
-
-```html
-    <button class="btn">
-        <i class="btn__icon">
-            +
-        </i>
-        Ajouter
-    </button>
-```
-
-## Modifier
-## 3. Modifier (Variation ou État d’un Block/Element)
-Un **Modifier** permet de représenter une variation ou un état particulier.
-Il se définit avec la syntaxe `block--modifier`.
-**Exemples de Modifier** : 
-- `btn--primary` (style visuel différent)
-- `btn--active` (état actif)
-```html
-    <button class="btn btn--primary">
-        <i class="btn__icon">
-            +
-        </i>
-        Ajouter
-    </button>
-```
-<br />
-<br />
 
 # Architecture
-Nous utilisons une architecture type **[ITCSS](https://www.freecodecamp.org/news/managing-large-s-css-projects-using-the-inverted-triangle-architecture-3c03e4b1e6df/)** (Inverted Triangle CSS)
-## **Exemple**
 ```
-/css/
- ├── settings/ (variables, fonts, colors)
- ├─── variables.css
- ├─── themes.css
- ├── tools/ 
- ├─── utilities.css
- ├── generic/ (reset, normalize)
- ├─── reset.css
- ├── elements/ (h1, p, a…)
- ├─── typography.css
- ├─── link.css
- ├── objects/ (layout grid, containers)
- ├─── grid.css
- ├── components/ (btn, card, navbar…)
- ├─── btn.css
- ├─── navbar.css
- ├─── card.css
- ├── utilities/ (margin helpers, text-align…)
- ├─── display.css
- ├── pages/ (overrides spécifiques)
- ├─── homepage.css
- └── login.css
+iot-dashboard/
+│
+├── app/
+│   ├── __init__.py
+│   ├── routes.py
+│   ├── models.py
+│   ├── mqtt_client.py
+│   ├── utils.py
+│   ├── db.py
+│   └── templates/
+│       └── index.html
+│       └── login.html
+│       └── ...
+│
+├── static/
+│   ├── css/
+│   │   └──  voir style guides
+│   │
+│   ├── images/
+│   │   └── homepage.png
+│   │
+│   └── js/
+│       └── dashboard.js
+│
+├── config.py
+├── requirements.txt
+├── run.py
+├── .env
+├── .env.example
+├── CHANGELOG.md
+└── README.md
 ```
-<br />
-<br />
-
-# Liste des classes préparé
-## Elements
-### typography.css
-- `title`
-- `subtitle`
-- `surtitle`
-- `text`
-
-## Components
-### btn.css
-- `btn`
-- `btn--primary`
-- `btn--secondary`
-### card.css
-- `card`
-### navbar.css
-- `nav`
-
-
-## Utilities
-### display.css
-- `d-flex`
-- `d-grid`
-
-
-<br />
-<br />
-
-# Éléments du root
 

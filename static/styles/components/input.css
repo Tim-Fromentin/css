@@ -1,0 +1,9 @@
+.input {
+    background: #000;
+}
+
+/* ======================= Pill input ======================= */
+.input--pill {
+    border-radius: var(--bdrs-form--input);
+    border: 1px solid var(--color-primary);
+}

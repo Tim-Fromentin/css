@@ -1,0 +1,44 @@
+:root {
+    /* Color */
+    --color-primary: #333;
+    --color-secondary: #333;
+    --color-bg: #333;
+    --color-text: #333;
+    --color-text-light: #333;
+
+    /* Typography */
+    
+    /* Font Family */
+    --ff-base: Inter, 'sans-serif';
+
+    /* Font size */
+    --fz-xxl: 4.8rem;
+    --fz-xl: 3.2rem;
+    --fz-lg: 2rem;
+    --fz-md: 1.6rem;
+    --fz-sm: 1.4rem;
+    --fz-xs: 1.2rem;
+
+    /* Font weight */
+    --fw-light: 200;
+    --fw-regular: 500;
+    --fw-bold: 900;
+
+    /* Border radius */
+    --bdrs-round: 50%;
+    
+    /* Specific variables CARD */
+    --bdrs-card: 5px; 
+    --color-bg-card: #333;
+    --pd-card: 2.5rem;
+    
+    /* Specific variables FORM */
+    --bdrs-form--input: 40px;
+    --bdrs-form--btn: 36px;
+    --bdrs-form--image: 29px;
+
+    
+}
+body {
+    font-size: var(--fz-lg);
+}
