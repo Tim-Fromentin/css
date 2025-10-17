@@ -10,45 +10,41 @@
 
 
 # READ ME 
-#### [Voir le STYLE GUIDE](./static/styles/STYLE-GUIDE.md)
-#### [Voir le CHANGELOG](./CHANGELOG.md)
-
 # Sommaire
 - [READ ME](#read-me)
-      - [Voir le style guide](#voir-le-style-guide)
 - [Sommaire](#sommaire)
 - [Installation](#installation)
-    - [1.](#1)
-    - [2.](#2)
+    - [1. Exemples](#1-exemples)
+    - [2. Exemples](#2-exemples)
 - [Lancement](#lancement)
-    - [1.](#1)
-    - [2.](#2-1)
+    - [1. Exemples](#1-exemples-1)
+    - [2. Exemples](#2-exemples-1)
 - [Liste des librairies](#liste-des-librairies)
 - [Architecture](#architecture)
 
 
 # Installation
-### 1.
+### 1. Exemples
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-### 2.
+### 2. Exemples
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 <br /><br />
 
 # Lancement
-### 1.
+### 1. Exemples
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
-### 2.
+### 2. Exemples
 Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
 
 <br /><br />
 
 
 # Liste des librairies
-- mqtt
-- CHART JS
+- ```mqtt```
+- ```CHART JS```
 
 <br /><br />
 
