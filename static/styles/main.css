@@ -1,0 +1,18 @@
+@import url(./components/btn.css);
+@import url(./components/card.css);
+@import url(./components/input.css);
+@import url(./components/navbar.css);
+@import url(./generic/link.css);
+@import url(./generic/reset.css);
+@import url(./objects/grid.css);
+@import url(./settings/variables.css);
+@import url(./utilities/display.css);
+
+body {
+    background: var(--color-bg);
+    color: var(--color-text);
+    font-family: var(--ff-base);
+    font-size: var(--fz-md);
+    font-weight: var(--fw-regular);
+    padding: var(--layout-padding-y) var(--layout-padding-x);
+}

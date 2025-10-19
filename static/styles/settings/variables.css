@@ -1,15 +1,15 @@
 :root {
     /* Color */
-    --color-primary: #333;
+    --color-primary: #56DF9F;
     --color-secondary: #333;
-    --color-bg: #333;
+    --color-bg: #F6F5FB;
     --color-text: #333;
     --color-text-light: #333;
 
     /* Typography */
     
     /* Font Family */
-    --ff-base: Inter, 'sans-serif';
+    --ff-base: Inter, sans-serif;
 
     /* Font size */
     --fz-xxl: 4.8rem;
@@ -25,8 +25,12 @@
     --fw-bold: 900;
 
     /* Border radius */
-    --bdrs-round: 50%;
-    
+    --bdrs-round: 50px;
+
+    /* Layout Spacing */
+    --layout-padding-x: 50px;
+    --layout-padding-y: 100px;
+
     /* Specific variables CARD */
     --bdrs-card: 5px; 
     --color-bg-card: #333;
@@ -39,6 +43,11 @@
 
     
 }
-body {
-    font-size: var(--fz-lg);
+
+
+@media screen and (max-width: 425px) {
+      :root {
+    --layout-padding-x: 24px;
+    --layout-padding-y: 50px;
+  }
 }

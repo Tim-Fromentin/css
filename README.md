@@ -9,12 +9,9 @@
 
 
 
-# READ ME 
+# READ ME <!-- omit in toc -->
 #### [Voir le Style Guide](./static/styles/STYLE-GUIDE.md)
-# Sommaire
-- [READ ME](#read-me)
-      - [Voir le Style Guide](#voir-le-style-guide)
-- [Sommaire](#sommaire)
+# Sommaire <!-- omit in toc -->
 - [Installation](#installation)
     - [1. Exemples](#1-exemples)
     - [2. Exemples](#2-exemples)
@@ -23,6 +20,8 @@
     - [2. Exemples](#2-exemples-1)
 - [Liste des librairies](#liste-des-librairies)
 - [Architecture](#architecture)
+- [Guide commentaires](#guide-commentaires)
+
 
 
 # Installation
@@ -72,13 +71,15 @@ iot-dashboard/
 │       └── ...
 │
 ├── static/
-│   ├── css/
+│   ├── styles/
 │   │   └──  voir style guides
 │   │
-│   ├── images/
-│   │   └── homepage.png
+│   ├── assets/
+│   │   └── images
+│   │    └── homepage.png
+│   │   └── icons
 │   │
-│   └── js/
+│   └── scripts/
 │       └── dashboard.js
 │
 ├── config.py
@@ -90,3 +91,16 @@ iot-dashboard/
 └── README.md
 ```
 
+# Guide commentaires
+| Anchor    | Scope      | Définition / Usage |
+|-----------|-----------|------------------|
+| ANCHOR    | file      | Point d’ancrage général dans le fichier |
+| TODO      | workspace | Choses à faire, fonctionnalités à implémenter |
+| FIXME     | workspace | Problème connu à corriger |
+| STUB      | file      | Code partiel ou placeholder à compléter |
+| NOTE      | file      | Note ou information importante pour le dev |
+| REVIEW    | workspace | Partie à relire ou valider |
+| SECTION   | workspace | Section / région de code (peut être pliable) |
+| LINK      | workspace | Lien vers un autre fichier ou ressource |
+| ELEMENT   | workspace | Élément de code ou composant important |
+| FINISH    | workspace | Partie terminée / validée (souvent lien) |
