@@ -1,0 +1,15 @@
+/* ======================= Background-color ======================= */
+.bg-primary {
+    background: var(--color-primary);
+}
+.bg-secondary {
+    background: var(--color-secondary);
+}
+
+/* ======================= Color ======================= */
+.color-primary {
+    color: var(--color-primary);
+}
+.color-text {
+    color: var(--color-text);
+}

@@ -1,15 +1,29 @@
-# Style Guide
-#### [Lire le README](../../README.md)
-# Sommaire
-
+# Style Guide <!-- omit in toc -->
+#### [Lire le README](../../README.md) <!-- omit in toc -->
+# Sommaire <!-- omit in toc -->
 - [Naming system](#naming-system)
   - [Block](#block)
+    - [1. Block (Composant global et indépendant)](#1-block-composant-global-et-indépendant)
+      - [Examples](#examples)
   - [Element](#element)
+  - [2. Element (Partie interne d’un Block)](#2-element-partie-interne-dun-block)
   - [Modifier](#modifier)
+  - [3. Modifier (Variation ou État d’un Block/Element)](#3-modifier-variation-ou-état-dun-blockelement)
 - [Architecture](#architecture)
+  - [**Exemple**](#exemple)
 - [Liste des classes préparé](#liste-des-classes-préparé)
+  - [Elements](#elements)
+    - [typography.css](#typographycss)
+  - [Components](#components)
+    - [btn.css](#btncss)
+    - [input.css](#inputcss)
+    - [card.css](#cardcss)
+    - [navbar.css](#navbarcss)
+  - [Utilities](#utilities)
+    - [display.css](#displaycss)
+  - [objects](#objects)
+    - [grid.css](#gridcss)
 - [Éléments du root](#éléments-du-root)
-
 
 
 
@@ -112,8 +126,10 @@ Nous utilisons une architecture type **[ITCSS](https://www.freecodecamp.org/news
 ## Components
 ### btn.css
 - `btn`
-- `btn--primary`
+- `btn--pill`
 - `btn--secondary`
+### input.css
+- `input`
 ### card.css
 - `card`
 ### navbar.css
@@ -123,7 +139,16 @@ Nous utilisons une architecture type **[ITCSS](https://www.freecodecamp.org/news
 ## Utilities
 ### display.css
 - `d-flex`
-- `d-grid`
+- `flex-column`
+- `flex-center`
+- `text-center`
+- `d-none`
+
+## objects 
+### grid.css
+- `grid`
+- `grid--2`
+- `grid--3`
 
 
 <br />
