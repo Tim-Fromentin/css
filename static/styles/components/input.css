@@ -1,5 +1,15 @@
 .input {
-    background: #000;
+    border: 1px solid var(--color-text-light);
+    color: var(--color-text);
+    background: var(--color-bg);
+    padding: 5px;
+    border-radius: 3px;
+}
+.label {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    user-select: none;
 }
 
 /* ======================= Pill input ======================= */
